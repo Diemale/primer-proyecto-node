@@ -1,0 +1,19 @@
+{
+  "name": "primer-proyecto-node",
+  "version": "1.0.0",
+  "description": "guia hoteles",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diemale/primer-proyecto-node.git"
+  },
+  "author": "\"Diego Ledesma\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Diemale/primer-proyecto-node/issues"
+  },
+  "homepage": "https://github.com/Diemale/primer-proyecto-node#readme"
+}
