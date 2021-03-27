@@ -1,22 +1,29 @@
-
+/*	
+	#1DBEF0
+	#45CDFF
+	#70DBFF
+	#A9D0DB
+	#96E6FA
+*/
 .jumbotron{
-	background-color: #62d8f5;
+	background-color: #1DBEF0;
 	padding: 50px;
+	margin-top: 55px;
 }
 
 footer{
 	padding:10px 10px 0 10px;
-	background-color: #62d8f5;
+	background-color:  #1DBEF0;
 	margin-bottom: 0px;
 	margin-top: 10px;
 	padding: 40px;
 }
 
 .btn {
-	background-color: #3fc4d6;
+	background-color: #45CDFF;
 }
 .card-hotel{   /*con la clase hago que todas las fichas de hotel tengan el mismo ancho*/
-	flex: 1 180px;  /* flex: por cuanto multiplico el tamaño, ancho definido; */
+	flex: 1 150px;  /* flex: por cuanto multiplico el tamaño, ancho definido; */
 	padding:2px 4px 2px 4px;
 					/*Al darle flex a esta clase, ya no necesito que tengan clase columna*/    
 	margin-top: 10px;
@@ -25,4 +32,8 @@ footer{
 .btn-reserva{
 	width: 200;
 
+}
+
+.footer-adress-icon{
+	padding-right: 10px;
 }

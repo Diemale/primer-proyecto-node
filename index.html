@@ -7,17 +7,39 @@
     <title>Bootstrap 4</title>
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 
-   	<link rel="stylesheet" href="css/bootstrap.min.css">
+   	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/estilo.css">
-	
+	<link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
 
+	
    
-  </head>
+  </head>   
 	<body>
+		<nav class="navbar navbar-dark bg-dark fixed-top">
+			<a class="navbar-brand" href="#">Hoteles</a>
+			 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 		aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			 	<span class="navbar-toggler-icon"></span>
+			 </button>
+			 	
+			 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    			<ul class="navbar-nav mr-auto">
+    				<li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+    				<li class="nav-item"><a class="nav-link" href="./about.html">Nosotros</a> </li>
+    				<li class="nav-item"><a class="nav-link" href="#">Precios</a> </li>
+    				<li class="nav-item"><a class="nav-link" href="#">Términos y condiciones</a> </li>
+    				<li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+    			</ul>
+    		</div>	
+		</nav>
 		 <div class="jumbotron">
 	     	<h1>Hoteles</h1>
 	     </div>
 	     <div class="container">
+	     	<nav aria-label="breadcrumb">
+	     		<ol class="breadcrumb">
+	     			<li class="breadcrumb-item active" aria-current="page">Home</li>
+	     		</ol>
+	     	</nav>
 		     <div class="row">
 		     	<div class="col-sm-4">
 				 	<p>
@@ -47,7 +69,7 @@
 				 			<p>Hotel ubicado a pocos metros de la playa, vista inmejorable.</p>
 				 		</div>
 				 		<div>
-				 			<button class="btn btn-reserva">Reservar</button>
+				 			<button class="btn btn-reserva"><span class="oi oi-key text-light"></span> Reservar</button>
 				 		</div>
 				 </div>
 				 <div class="card-hotel d-flex flex-column justify-content-between">
@@ -57,7 +79,7 @@
 				 		</div>
 				 		
 				 		<div>
-				 			<button class="btn btn-reserva">Reservar</button>
+				 			<button class="btn btn-reserva"><span class="oi oi-key text-light"></span> Reservar</button>
 				 		</div>
 				 		
 				 </div>
@@ -68,7 +90,7 @@
 				 		</div>
 				 			
 				 		<div>
-				 			<button class="btn btn-reserva">Reservar</button>
+				 			<button class="btn btn-reserva"><span class="oi oi-key text-light"></span> Reservar</button>
 				 		</div>
 				 </div>
 				 <div class="card-hotel d-flex flex-column justify-content-between">
@@ -78,7 +100,7 @@
 				 		</div>
 				 		
 				 		<div>
-				 			<button class="btn btn-reserva">Reservar</button>
+				 			<button class="btn btn-reserva"><span class="oi oi-key text-light"></span> Reservar</button>
 				 		</div>
 				 </div>
 				 <div class="card-hotel d-flex flex-column justify-content-between">
@@ -88,7 +110,7 @@
 				 		</div>
 				 		
 				 		<div>
-				 			<button class="btn btn-reserva">Reservar</button>
+				 			<button class="btn btn-reserva"><span class="oi oi-key text-light"></span> Reservar</button>
 				 		</div>
 				 </div>
 				 <div class="card-hotel d-flex flex-column justify-content-between">
@@ -98,17 +120,17 @@
 				 		</div>
 				 		
 				 		<div>
-				 			<button class="btn btn-reserva">Reservar</button>
+				 			<button class="btn btn-reserva text-dark"><span class="oi oi-key text-light"></span> Reservar</button>
 				 		</div>
 				 </div>
 				  <div class="card-hotel d-flex flex-column justify-content-between">
 				  		<div>
-				 			<h3>Hotel Jardines de Babilonia</h3>
+				 			<h3>Hotel Babilonia</h3>
 				 		<p>Abierto toda la noche</p>
 				 		</div>
 				 		
 				 		<div>
-				 			<button class="btn btn-reserva">Reservar</button>
+				 			<button class="btn btn-reserva"><span class="oi oi-key text-light"></span> Reservar</button>
 				 		</div>
 				 </div>
 			</div>
@@ -123,10 +145,10 @@
 					<a href="https://www.istagram.com">Instagram</a>
 				</div>
 				<div class="col-sm-4"> 
-					<p>La casa de tu mamá 225</p> 
-					<p>Gobernador Rodriguez, Buenos Aires<p>
-					<p>Teléfono 555-5555</p>
-					<p>contacto@tuHotel.com</p>
+					<p><span class="oi oi-map-marker footer-adress-icon text-light"></span> Av.Olivos 225, Gobernador Rodriguez, Buenos Aires</p> 
+					<p><span class="oi oi-phone footer-adress-icon text-light"></span> +54 555-5555</p>
+					<p><span class="oi oi-envelope-closed footer-adress-icon text-light"></span> 
+					 contacto@tuHotel.com</p>
 				</div>
 			
 				<div class="col-sm-4 d-flex flex-colum align-items-end">
@@ -138,6 +160,10 @@
 			</div>
 						
 		</footer>
-			   
+			 <!-- Optional JavaScript -->
+	    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+	   <script src="node_modules/popper.js/dist/popper.min.js"></script>
+	   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>	   	   
 	</body>
 </html>
