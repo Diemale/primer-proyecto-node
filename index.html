@@ -15,7 +15,7 @@
 	
    
   </head>   
-	<body>
+	<body class="fondo">
 		<nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
 			<a class="navbar-brand" href="#">Hoteles</a>
 			 <button class="navbar-toggler" 
@@ -50,38 +50,44 @@
 		     <div class="row">
 		     	<div class="col-sm-4">
 				 	<p>
-				 		<h3>¿Cómo funciona?</h3>
-				 		<p>Buscá los hoteles de acuerdo a tu preferencia</p>
+				 		<h3 class="text-light">¿Cómo funciona?</h3>
+				 		<p class="text-light">Buscá los hoteles de acuerdo a tu preferencia</p>
 				 	</p>
 				 </div>
 				 <div class="col-sm-4">
 				 	<p>
-				 		<h3>¿Dónde reservo?</h3>
-				 		<p>Elegí la ciudad que te interese y después realizá la reserva con tus datos</p>
+				 		<h3 class="text-light">¿Dónde reservo?</h3>
+				 		<p class="text-light">Elegí la ciudad que te interese y después realizá la reserva con tus datos</p>
 				 	</p>
 				 </div>
 				 <div class="col-sm-4">
 				 	<p>
-				 		<h3>¿Cómo pago?</h3>
-				 		<p>Utilizá tu tarjeta favorita</p>
+				 		<h3 class="text-light">¿Cómo pago?</h3>
+				 		<p class="text-light">Utilizá tu tarjeta favorita</p>
 				 	</p>
 				 </div>
 			   </div>
-			   <hr>
+			   <hr class="bg-light">
 
 			<div class="d-flex flex-wrap">
-		     	<div class="card-hotel d-flex flex-column justify-content-between">
-				 		<div>
-				 			<h3>Hotel Barcelona</h3>
-				 			<p>Hotel ubicado a pocos metros de la playa, vista inmejorable.</p>
+		     	<div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+		     			<div class="card-header">
+		     				Cataluña
+		     			</div>
+				 		<div class="card-body">
+				 			<h5 class="card-title">Hotel Barcelona</h5>
+				 			<img class="card-img-top" src="imagenes/hBarcelona.jpg" alt="hotel img">
+				 			<p class="card-text">Hotel ubicado a pocos metros de la playa, vista inmejorable.</p>
 				 		</div>
 				 		<div>
 				 			<button class="btn btn-outline-dark btn-reserva"><span class="oi oi-key text-light"></span> Reservar</button>
 				 		</div>
 				 </div>
-				 <div class="card-hotel d-flex flex-column justify-content-between">
-				 		<div>
-				 			<h3>Hotel Hilton</h3>
+				 <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+				 		<div class="card-header">Argentina</div>
+				 		<div class="card-body">
+				 			<h5 class="card-title">Hotel Cordoba</h5>
+				 			<img class="card-img-top" src="imagenes/hCordoba.jpg" alt="hotel img">
 				 			<p>Hotel cinco estrellas en el centro de la ciudad</p>
 				 		</div>
 				 		
@@ -90,9 +96,11 @@
 				 		</div>
 				 		
 				 </div>
-				 <div class="card-hotel d-flex flex-column justify-content-between">
-				 		<div>
-				 			<h3>Hotel Manaos</h3>
+				 <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+				 		<div class="card-header">Brasil</div>
+				 		<div class="card-body">
+				 			<h5 class="card-title">Hotel Manaus</h5>
+				 			<img class="card-img-top" src="imagenes/hManaus.jpg" alt="hotel img">
 				 			<p>No vengas hay coronavirus</p>
 				 		</div>
 				 			
@@ -100,40 +108,48 @@
 				 			<button class="btn btn-outline-dark btn-reserva"><span class="oi oi-key text-light"></span> Reservar</button>
 				 		</div>
 				 </div>
-				 <div class="card-hotel d-flex flex-column justify-content-between">
-				 		<div>
-				 			<h3>Hotel Los Pinos</h3>
-				 			<p>Abierto toda la noche</p>
+				 <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+				 		<div class="card-header">México</div>
+				 		<div class="card-body">
+				 			<h5 class="card-title">Hotel Cancún</h5>
+				 			<img class="card-img-top" src="imagenes/hCancún.jpg" alt="hotel img">
+				 			<p>El mejor hotel de México</p>
 				 		</div>
 				 		
 				 		<div>
 				 			<button class="btn btn-outline-dark btn-reserva"><span class="oi oi-key text-light"></span> Reservar</button>
 				 		</div>
 				 </div>
-				 <div class="card-hotel d-flex flex-column justify-content-between">
-				 		<div>
-				 			<h3>Hotel Encantos</h3>
-				 			<p>Abierto toda la noche</p>
+				 <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+				 		<div class="card-header">Japón</div>
+				 		<div class="card-body">
+				 			<h5 class="card-title">Hotel Tokyo</h5>
+				 			<img class="card-img-top" src="imagenes/hTokyo.jpg" alt="hotel img">
+				 			<p>Hotel en pleno centro del Nuevo Tokyo</p>
 				 		</div>
 				 		
 				 		<div>
 				 			<button class="btn btn-outline-dark btn-reserva"><span class="oi oi-key text-light"></span> Reservar</button>
 				 		</div>
 				 </div>
-				 <div class="card-hotel d-flex flex-column justify-content-between">
-				 		<div>
-				 			<h3>Hotel La Joya</h3>
-				 			<p>Abierto toda la noche</p>
+				 <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+				 		<div class="card-header">EEUU</div>
+				 		<div class="card-body">
+				 			<h5 class="card-title">Hotel Miami</h5>
+				 			<img class="card-img-top" src="imagenes/hMiami.jpg" alt="hotel img">
+				 			<p>Hotel en barrio Miami Beach</p>
 				 		</div>
 				 		
 				 		<div>
-				 			<button class="btn btn-outline-dark btn-reserva text-dark"><span class="oi oi-key text-light"></span> Reservar</button>
+				 			<button class="btn btn-outline-dark btn-reserva"><span class="oi oi-key text-light"></span> Reservar</button>
 				 		</div>
 				 </div>
-				  <div class="card-hotel d-flex flex-column justify-content-between">
-				  		<div>
-				 			<h3>Hotel Babilonia</h3>
-				 		<p>Abierto toda la noche</p>
+				  <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+				  		<div class="card-header">Grecia</div>
+				 		<div class="card-body">
+				 			<h5 class="card-title">Santorini</h5>
+				 		<img class="card-img-top" src="imagenes/hSantorini.jpg" alt="hotel img">	
+				 		<p>Hotel emplazado entre las mejores playas griegas</p>
 				 		</div>
 				 		
 				 		<div>

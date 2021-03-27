@@ -23,14 +23,14 @@ footer{
 	background-color: #45CDFF;
 }
 .card-hotel{   /*con la clase hago que todas las fichas de hotel tengan el mismo ancho*/
-	flex: 1 150px;  /* flex: por cuanto multiplico el tamaño, ancho definido; */
-	padding:2px 4px 2px 4px;
+	flex: 1 180px;  /* flex: por cuanto multiplico el tamaño, ancho definido; */
 					/*Al darle flex a esta clase, ya no necesito que tengan clase columna*/    
 	margin-top: 10px;
 }
 
 .btn-reserva{
-	width: 200;
+	width: 100%;
+	border-radius: 0;
 
 }
 
@@ -40,4 +40,8 @@ footer{
 
 .estrella{
 	color:#1DBEF0;
+}
+
+.fondo{
+	background-color: #174486;
 }
