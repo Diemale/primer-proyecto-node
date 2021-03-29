@@ -47,29 +47,54 @@
 	     			<li class="breadcrumb-item active" aria-current="page">Home</li>
 	     		</ol>
 	     	</nav>
-		     <div class="row">
-		     	<div class="col-sm-4">
-				 	<p>
-				 		<h3 class="text-light">¿Cómo funciona?</h3>
-				 		<p class="text-light">Buscá los hoteles de acuerdo a tu preferencia</p>
+	     	
+	     	<hr class="bg-light">
+			 <img src="imagenes/playa.png" class="img-fluid rounded mx-auto d-block" alt="Responsive image">
+			 <hr class="bg-light">
+
+	     	<div class="row">
+	     		<div class="col-sm-4">
+	     			<button class="btn btn-primary" type="button"
+	     			data-toggle="collapse" 
+	     			data-target="#funciona" 
+	     			aria-expanded="false"
+	     			 aria-controls="multi-collapse1"> ¿Cómo funciona?</button>
+	     		</div>
+
+	     		<div class="col-sm-4">
+	     			<button class="btn btn-primary" type="button"
+	     			data-toggle="collapse" data-target="#reserva" aria-expanded="false" aria-controls="multi-collapse2"> ¿Dónde reservo?</button>
+	     		</div>
+
+	     		<div class="col-sm-4">
+	     			<button class="btn btn-primary" type="button"
+	     			data-toggle="collapse" data-target="#pago" aria-expanded="false" aria-controls="multi-collapse3"> ¿Cómo pago?</button>
+	     		</div>
+	     		
+	     	</div>
+
+		    <div class="row">
+			    <div class="col-sm-4 collapse multi-collapse" id="funciona">
+					<p>
+						<h3 class="text-light">¿Cómo funciona?</h3>
+						<p class="text-light">Buscá los hoteles de acuerdo a tu preferencia</p>
 				 	</p>
-				 </div>
-				 <div class="col-sm-4">
+				</div>
+	
+			    <div class="col-sm-4 collapse multi-collapse" id="reserva">
 				 	<p>
 				 		<h3 class="text-light">¿Dónde reservo?</h3>
 				 		<p class="text-light">Elegí la ciudad que te interese y después realizá la reserva con tus datos</p>
 				 	</p>
 				 </div>
-				 <div class="col-sm-4">
+				 <div class="col-sm-4 collapse multi-collapse" id="pago">
 				 	<p>
 				 		<h3 class="text-light">¿Cómo pago?</h3>
 				 		<p class="text-light">Utilizá tu tarjeta favorita</p>
 				 	</p>
 				 </div>
-			   </div>
-			   <hr class="bg-light">
-			   <img src="imagenes/playa.png" class="img-fluid rounded mx-auto d-block" alt="Responsive image">
-			   <hr class="bg-light">
+			</div>
+		
 			<div class="d-flex flex-wrap flex-row-reverse">
 		     	<div class="card card-hotel d-flex flex-column justify-content-between ml-2">
 		     			<div class="card-header">
